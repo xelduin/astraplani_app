@@ -1,0 +1,48 @@
+{
+  "name": "astraplani_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@next/font": "13.1.1",
+    "@react-three/drei": "^9.51.4",
+    "@react-three/fiber": "^8.10.0",
+    "@react-three/postprocessing": "^2.7.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@starknet-react/core": "^0.16.0",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "@types/three": "^0.148.0",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "lodash": "^4.17.21",
+    "next": "13.1.1",
+    "next-redux-wrapper": "^8.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-use-refs": "^1.0.1",
+    "starknet": "^4.22.0",
+    "tailwind-scrollbar": "^3.0.0",
+    "three": "^0.148.0",
+    "three-stdlib": "^2.21.5",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.1",
+    "tailwindcss": "^3.2.4"
+  }
+}

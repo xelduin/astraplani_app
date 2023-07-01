@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Symbola';
+  src: url('../../public/fonts/Symbola.ttf');
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #111;
+    font-family: 'Symbola';
+    color: white;
+  }
+
+  .container {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .canvas {
+    pointer-events: none;
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+  }
+
+  .view1 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .view2 {
+    position: absolute;
+    width: 256px;
+    height: 256px;
+  }
+
+  .btn {
+    @apply py-2 px-4;
+  }
+
+  .btn-teal {
+    @apply bg-emerald-800 text-white;
+  }
+
+  .btn-teal:hover {
+    @apply bg-teal-900;
+  }
+
+  .btn-purple {
+    @apply bg-purple-800 text-white;
+  }
+
+  .btn-purple:hover {
+    @apply bg-purple-900;
+  }
+
+  th,
+  td {
+    @apply px-2;
+  }
+}
